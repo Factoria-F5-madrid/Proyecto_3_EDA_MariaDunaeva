@@ -1,5 +1,5 @@
 # Datos
-../data/raw/Worldwide Travel Cities Dataset (Ratings and Climate).csv
+../notebooks/Worldwide Travel Cities Dataset (Ratings and Climate).csv
 data/raw/
 data/processed/
 *.csv
