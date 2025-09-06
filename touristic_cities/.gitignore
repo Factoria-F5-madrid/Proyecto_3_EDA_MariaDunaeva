@@ -1,16 +1,8 @@
 # Datos
-../notebooks/Worldwide Travel Cities Dataset (Ratings and Climate).csv
-data/raw/
-data/processed/
 *.csv
 *.xlsx
 *.json
 *.parquet
-
-# Jupyter Notebooks
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
-*.ipynb
 
 # Python
 __pycache__/
