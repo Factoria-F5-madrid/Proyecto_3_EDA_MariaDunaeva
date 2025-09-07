@@ -45,9 +45,13 @@ proyecto-turismo/
 ### Dependencias
 
 pandas>=1.3.0
+
 numpy>=1.20.0
+
 matplotlib>=3.5.0
+
 seaborn>=0.11.0
+
 scipy>=1.7.0
 
 ### Configuración
@@ -70,25 +74,25 @@ sns.set_palette("husl")
 
 - #### Limpieza de datos:
 
-- Tratamiento de valores nulos
-- Eliminación de duplicados
-- Validación de rangos
-- Conversión de tipos de datos
+    - Tratamiento de valores nulos
+    - Eliminación de duplicados
+    - Validación de rangos
+    - Conversión de tipos de datos
 
 
 - #### Detección de outliers:
 
-- Método IQR
-- Z-Score
-- Análisis de ciudades extremas
+    - Método IQR
+    - Z-Score
+    - Análisis de ciudades extremas
 
 
 - #### Creación de variables derivadas:
 
-- avg_activity_rating: Promedio de todos los ratings
-- rating_category: Categorías de calidad (Bajo/Medio/Alto/Excelente)
-- temp_category: Categorías climáticas
-- Índices combinados (aventura+naturaleza, cultura+gastronomía, etc.)
+    - avg_activity_rating: Promedio de todos los ratings
+    - rating_category: Categorías de calidad (Bajo/Medio/Alto/Excelente)
+    - temp_category: Categorías climáticas
+    - Índices combinados (aventura+naturaleza, cultura+gastronomía, etc.)
 
 
 
@@ -112,21 +116,29 @@ sns.set_palette("husl")
 ### Análisis de Calidad de Datos
 
 def clean_cities_data(df)
+
 def detect_outliers_tourism(df)
+
 def create_derived_variables_tourism(df)
 
 ### Análisis Exploratorio
 
 def univariate_analysis_tourism(df)
+
 def bivariate_analysis_tourism(df)
+
 def multivariate_analysis_tourism(df)
+
 def extract_insights_tourism(df, matriz_corr, strong_correlations)
 
 ### Dashboard Ejecutivo
 
 def create_main_dashboard(df)
+
 def segmentation_analysis(df)
+
 def generate_recomandations(df)
+
 def final_executive_dashboard(df, recomandations)
 
 ## 📊 Principales Métricas y KPIs
