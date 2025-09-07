@@ -27,6 +27,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+touristic_cities/notebooks/ciudad_repetida.py
 
 # Virtual environments
 .env
