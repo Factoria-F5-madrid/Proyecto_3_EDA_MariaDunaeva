@@ -9,14 +9,23 @@ Este proyecto realiza un análisis exhaustivo de ciudades turísticas mundiales,
 ## 🗂️ Estructura del Proyecto
 
 proyecto-turismo/
+
 ├── data/
+
 │   └── raw/
+
 │       └── Worldwide Travel Cities Dataset (Ratings and Climate).csv
+
 ├── notebooks/
+
 │   ├── 01_exploracion_inicial.ipynb
+
 │   ├── 02_limpieza_preprocesamiento.ipynb
+
 │   ├── 03_analisis_completo.ipynb
+
 │   └── 04_dashboard_ejecutivo.ipynb
+
 └── README.md
 
 ## 📋 Dataset
